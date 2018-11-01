@@ -19,9 +19,8 @@ For an example of deploying a Kubernetes cluster onto Azure via the Azure Contai
 The core of the Azure Container Service is **open source** and available on GitHub for the community
 to use and contribute to: **[ACS-Engine](https://github.com/Azure/acs-engine)**.
 
-ACS-Engine is a good choice if you need to make customizations to the deployment beyond what the Azure Container
-Service officially supports. These customizations include deploying into existing virtual networks, utilizing multiple
-agent pools, and more. Some community contributions to ACS-Engine may even become features of the Azure Container Service.
+ACS-Engine is a good choice if you need to make customizations to the deployment beyond what the Azure Kubernetes
+Service officially supports. These customizations include deploying into existing virtual networks, utilizing multiple agent pools, Windows Server agent nodes and more. Some community contributions to ACS-Engine may even become features of the Azure Container Service.
 
 The input to ACS-Engine is similar to the ARM template syntax used to deploy a cluster directly with the Azure Container Service.
 The resulting output is an Azure Resource Manager Template that can then be checked into source control and can then be used
