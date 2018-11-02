@@ -55,14 +55,8 @@ Containers on Kubernetes include:
 
 The Kubernetes control plane (API Server, Scheduler, Controller Manager, etc) continue to run on Linux, while the kubelet and kube-proxy can be run on Windows Server 2016 or later
 
-{{< note >}}
-**Note:** Windows Server Containers on Kubernetes is a Beta feature in Kubernetes v1.9
-{{< /note >}}
-
 ## Get Windows Binaries
 We recommend using the release binaries that can be found at [https://github.com/kubernetes/kubernetes/releases/latest](https://github.com/kubernetes/kubernetes/releases/latest). Under the CHANGELOG you can find the Node Binaries link for Windows-amd64, which will include kubeadm, kubectl, kubelet and kube-proxy.
-
-If you wish to build the code yourself, please refer to detailed build instructions [here](https://docs.microsoft.com/en-us/virtualization/windowscontainers/kubernetes/compiling-kubernetes-binaries).
 
 ## Prerequisites
 In Kubernetes version 1.9 or later, Windows Server Containers for Kubernetes are supported using the following:
